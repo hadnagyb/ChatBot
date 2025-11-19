@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "AzureQnAChatbot.Controllers.ChatController",
+    "Method": "AskQuestion",
+    "RelativePath": "api/Chat/ask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "AzureQnAChatbot.Controllers.ChatRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AzureQnAChatbot.Models.QnAResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
